@@ -1,0 +1,2990 @@
+*:focus {
+    outline: none;
+}
+
+a, li {
+    text-decoration: none !important;
+}
+
+html,body{
+    scroll-behavior: smooth;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: visible;
+    font-family: 'Montserrat', sans-serif;
+    width: 100vw;
+    
+}
+
+button{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.killtext{
+    font-size: 0;
+}
+
+.bar{
+    position: relative;
+    margin-left: px;
+    top: 17px;
+    width: 45px;
+}
+
+.backnav{
+    position: fixed;
+    top: -2px;
+    width: 100%;
+    height: 90px;
+    background-color: #011248;
+    z-index: 1;
+  
+}
+
+
+.backnav2{
+    position: fixed;
+    top: -2px;
+    width: 2000px;
+    height: 75px;
+    background-color: #011248;
+    z-index: 1;
+    animation: opac 0.7s forwards;
+}
+
+
+
+
+.backnavop{
+    position: fixed;
+    top: -2px;
+    width: 3px;
+    height: 90px;
+    background-color: #011248;
+    z-index: 1;
+   
+}
+@keyframes opac{
+    0%{
+        background-color: #01124800;
+    }
+    100%{
+        background-color: #011248;
+    }
+}
+
+@keyframes opacop{
+    0%{
+        background-color: #011248;
+    }
+    100%{
+        background-color: #01124800;
+    }
+}
+
+.navbar{
+  position: fixed;
+  margin-left: 404px;
+  top: 30px;
+  z-index: 1; 
+}
+
+.logotext{
+    color: white;
+    margin-right: 350px;
+    font-size: 25px;
+    text-decoration: none;
+    animation: opac 2s forwards;
+
+}
+
+.href1{
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 14px;
+    animation: opac 2s forwards;
+}
+
+.href2{
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 14px;
+    animation: opac 2s forwards;
+}
+
+.href3{
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 14px;
+    animation: opac 2s forwards;
+}
+
+.href4{
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 14px;
+    animation: opac 2s forwards;
+}
+
+.href5{
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 14px;
+    margin-right: 160px;
+    animation: opac 2s forwards;
+}
+
+
+.loginbtn{
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: -webkit-linear-gradient(right,#0026ff,#008cff,#007bff);
+    padding: 15px 20px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    border: 0px;
+    cursor: pointer;
+    animation: changebgop 1s backwards;
+}
+
+.loginbtn2{
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: -webkit-linear-gradient(right,#0026ff,#008cff,#007bff);
+    padding: 15px 20px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    border: 0px;
+    cursor: pointer;
+}
+
+.loginbtn:hover{
+    animation: changebg 1s forwards;
+}
+
+
+.particles-js{
+    position: relative;
+    top: -260px;
+    height: 880px;
+    background-color: #062489;
+    background-size: cover;
+    z-index:1;
+    margin: 0;
+    
+}
+
+.welcomemain{
+    position: relative;
+    top: 500px;
+    margin-left: 400px;
+    width: 500px;
+}
+
+.welcometextmain{
+    color: white;
+    font-size: 43px;
+    font-weight: 680;
+    animation: opac 2s forwards;
+    cursor: default;
+}
+
+.welcometextsecond{
+    position: relative;
+    color: white;
+    font-size: 18px;
+    top: -10px;
+    animation: opac 2s forwards;
+    cursor: default;
+}
+
+.buttonmain1{
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: -webkit-linear-gradient(right,#0026ff,#008cff,#007bff);
+    padding: 15px 20px;
+    border-radius: 5px;
+    position: relative;
+    z-index:0;
+    text-align: center;
+    border: 0px;
+    cursor: pointer;
+    animation: changebgop 1s backwards;
+}
+
+
+.buttonmain2{
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: -webkit-linear-gradient(right,#0026ff,#008cff,#007bff);
+    padding: 15px 30px;
+    border-radius: 5px;
+    position: relative;
+    z-index:0;
+    text-align: center;
+    border: 0px;
+    cursor: pointer;
+    animation: changebgop2 1s backwards;
+}
+
+.buttonmain1:hover{
+    animation: changebg 1s forwards;
+}
+
+.buttonmain2:hover{
+    animation: changebg2 1s forwards;
+}
+
+@keyframes opac{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100;
+    }
+}
+
+@keyframes changebg{
+    0%{
+    padding: 15px 20px;
+    }
+    100%{
+    padding: 15px 40px;
+    }
+}
+
+@keyframes changebg2{
+    0%{
+        padding: 15px 30px;
+        }
+        100%{
+        padding: 15px 50px;
+        }
+}
+
+@keyframes changebgop{
+    0%{
+        padding: 15px 40px;
+        }
+        100%{
+        padding: 15px 20px;
+        }
+}
+
+@keyframes changebgop2{
+    0%{
+        padding: 15px 50px;
+        }
+        100%{
+        padding: 15px 30px;
+        }
+}
+
+
+.secondpart{
+    position: relative;
+    margin-top: -273px;
+    height: 950px;
+    width: 100%;
+    background-color: #062489;
+    z-index: 0;
+}
+
+.secondmaintext{
+    position: relative;
+    animation: opac 2s forwards;
+    top: 290px;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: default;
+    width: 130px;
+    z-index: 0;
+}
+
+.secondtexts{
+    position: relative;
+    top: 275px;
+    display: inline-flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 42px;
+    cursor: default;
+    z-index: 0;
+}
+
+
+
+.discordicon{
+ width: 35px;
+ z-index: 0;
+}
+
+.text1{  
+    margin-right: 45px;
+    margin-left: 10px;
+    z-index: 0;
+}
+
+.coursesicon{
+    width: 35px;
+    z-index: 0;
+}
+
+.text2{
+    margin-right: 45px;
+    margin-left: 10px;
+    z-index: 0;
+}
+
+.darkwebicon{
+    width: 35px;
+    z-index: 0;
+}
+.text3{
+    margin-right: 45px;
+    margin-left: 10px;
+    z-index: 0;
+}
+.sourcesicon{
+    width: 35px;
+    z-index: 0;
+}
+.text4{
+    margin-right: 45px;
+    margin-left: 10px;
+    z-index: 0;
+}
+.customicon{
+    width: 35px;
+    margin-right: 10px;
+     z-index: 0;
+}
+.text5{
+    margin-right: 45px;
+}
+
+.secondparttext{
+    position: relative;
+    color: white;
+    font-size: 31px;
+    top: 420px;
+    margin-left: 940px;
+    cursor: default;
+    width: 580px;
+    z-index: 0;
+}
+
+
+.secondpartsmalltxt{
+    position: relative;
+    margin-left: 940px;
+    top: 420px;
+    width: 500px;
+    color: #cbe5ff;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: default;
+    z-index: 0;
+}
+
+.databaseimage{
+    position: relative;
+    margin-left: 200px;
+    top: 100px;
+    width: 500px;
+    height: 500px;
+    z-index: 0;
+}
+
+
+
+
+.secondpartbutton{
+    position: relative;
+    top: -40px;
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: -webkit-linear-gradient(right,#0026ff,#008cff,#007bff);
+    padding: 15px 20px;
+    border-radius: 5px;
+    position: relative;
+    z-index:0;
+    text-align: center;
+    border: 0px;
+    cursor: pointer;
+    animation: changebgop 1s backwards;
+    margin-left: 310px;
+}
+
+.secondpartbutton:hover{
+    animation: changebg 1s forwards;
+}
+
+.thirdpart{
+ background-size: cover;
+ height: 700px;
+ background-color: #031b69;
+ margin-top: -30px;
+ overflow: hidden;
+ z-index: 0;
+}
+
+.thirdpartmaintxt{
+    position: relative;
+    top: 90px;
+    font-weight: 700;
+    font-size: 36px;
+    color: white;
+    cursor: default;
+    z-index: 0;
+
+}
+
+.thirdspan{
+    color: #f9748f;
+    
+}
+.boxes{
+    display: inline-flex;
+    z-index: 0;
+}
+
+.box1{
+    margin-top: 135px;
+    width: 400px;
+    height: 400px;
+    background-color: #0057b33d;
+    margin-right: 30px;
+    animation: returntop 0.4s backwards;
+}
+
+
+.box1 img{
+    margin-top: 50px;
+    width: 150px;
+}
+
+.box1 h3{
+    margin-top: 20px;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    cursor: default;
+}
+
+.box1 p{
+    color: #cbe5ff;
+    width: 350px;
+    cursor: default;
+}
+
+.box2{
+    margin-top: 135px;
+    width: 400px;
+    height: 400px;
+    background-color: #0057b33d;
+    margin-right: 30px;
+    animation: returntop 0.4s backwards;
+}
+
+.box2 img{
+    margin-top: 50px;
+    width: 150px;
+}
+
+.box2 h3{
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 20px;
+    cursor: default;
+}
+
+.box2 p{
+    color: #cbe5ff;
+    width: 350px;
+    cursor: default;
+}
+
+.box3{
+    margin-top: 135px;
+    width: 400px;
+    height: 400px;
+    background-color: #0057b33d;
+    margin-right: 30px;
+    animation: returntop 0.4s backwards;
+}
+.box3 img{
+    margin-top: 50px;
+    width: 150px;
+}
+
+.box3 h3{
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 20px;
+    cursor: default;
+}
+
+.box3 p{
+    color: #cbe5ff;
+    width: 350px;
+    cursor: default;
+}
+
+
+.box1:hover{
+    animation: changetop 0.4s forwards;
+}
+
+.box2:hover{
+    animation: changetop 0.4s forwards;
+}
+
+.box3:hover{
+    animation: changetop 0.4s forwards;
+}
+
+@keyframes changetop{
+    0%{
+    margin-top: 135px;
+    }
+    100%{
+    margin-top: 110px;
+    }
+}
+
+@keyframes returntop {
+    0%{
+        margin-top: 110px;
+        }
+        100%{
+        margin-top: 135px;
+        }
+}
+
+.fourthpart{
+    background-size: cover;
+    height: 600px;
+    background-color: #062489;
+    margin-top: -30px;
+    overflow: hidden;
+}
+
+.fourthpart h2{
+    position: relative;
+    top: 90px;
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+}
+
+.instagram{
+    margin-top: 160px;
+    width: 100px;
+    margin-right: 100px;
+    animation: closewidthinstagram 0.4s backwards;
+    cursor: pointer;
+}
+
+.instagram:hover{
+    animation: smoothwidthinstagram 0.4s forwards;
+}
+
+.twitter{
+    margin-top: 160px;
+    width: 90px;
+    margin-right: 20px;
+    animation: closewidthtiktok 0.4s backwards;
+    cursor: pointer;
+}
+
+.twitter:hover{
+    animation: smoothwidthtiktok 0.4s forwards;
+}
+
+.youtube{
+    position: relative;
+    margin-right: 90px;
+    top: 110px;
+    margin-top: 160px;
+    width: 90px;
+    animation: closewidthtiktok 0.4s backwards;
+    cursor: pointer;
+}
+
+.youtube:hover{
+    animation: smoothwidthtiktok 0.4s forwards;
+}
+
+.tiktok{
+    position: relative;
+    top: 60px;
+    margin-top: 160px;
+    width: 90px;
+    margin-right: 110px;
+    animation: closewidthtiktok 0.4s backwards;
+    cursor: pointer;
+}
+
+.tiktok:hover{
+    animation: smoothwidthtiktok 0.4s forwards;
+}
+
+.github{
+    position: relative;
+    top: 1px;
+    margin-top: 160px;
+    width: 120px;
+    animation: closewidthgithub 0.4s backwards;
+    cursor: pointer;
+}
+
+.github:hover{
+    animation: smoothwidthgithub 0.4s forwards;
+}
+
+@keyframes smoothwidthinstagram{
+    0%{
+    width: 100px;
+    }
+    100%{
+
+    width: 120px;
+    }
+}
+
+@keyframes closewidthinstagram{
+    0%{
+    width: 120px;
+    }
+    100%{
+
+    width: 100px;
+    }
+}
+
+
+@keyframes smoothwidthtiktok{
+    0%{
+    width: 90px;
+    }
+    100%{
+
+    width: 120px;
+    }
+}
+
+@keyframes closewidthtiktok{
+    0%{
+    width: 120px;
+    }
+    100%{
+
+    width: 90px;
+    }
+}
+
+
+@keyframes smoothwidthgithub{
+    0%{
+    width: 120px;
+    }
+    100%{
+    margin-top: 140px;
+    width: 140px;
+    }
+}
+
+@keyframes closewidthgithub{
+    0%{
+        width: 140px;
+        margin-top: 140px;
+        }
+        100%{
+        width: 120px;
+        margin-top: 160px;
+        }
+}
+
+
+
+.end{
+    margin-top: -21px;
+    background-size: cover;
+    background-color: #031b69;
+    height: 380px;
+    overflow: hidden;
+    
+}
+
+.bluecircle{
+    margin-left: 30px;
+    width: 90px;
+    opacity: 0.2;
+}
+
+
+.bluecircle3{
+    position: relative;
+    top: -330px;
+    margin-left: 1700px;
+    width: 400px;
+    opacity: 0.2;
+    
+}
+ 
+input{
+    position: relative;
+    top: -80px;
+    margin-left: 1200px;
+    color: #fff;
+    background: #062489;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+
+input::placeholder{
+    color: white;
+    font-weight: 500;
+}
+
+.end button{
+    position: relative;
+    top: -80px;
+    right: 10px;
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: -webkit-linear-gradient(right,#0026ff,#008cff,#007bff);
+    padding: 12px 20px;
+    border-radius: 2px;
+    position: relative;
+    z-index:0;
+    text-align: center;
+    border: 0px;
+    cursor: pointer;
+    overflow: hidden;
+ 
+}
+
+.end h2{
+    position: relative;
+    top: 85px;
+    margin-left: 450px;
+    font-size: 25px;
+    font-weight: 350;
+    cursor: default;
+    color: white;
+}
+
+.enxadp1{
+    position: relative;
+    top: 70px;
+    margin-left: 450px;
+    color: #cbe5ff;
+    width: 320px;
+    font-size: 15px;
+    cursor: default;
+}
+
+.eandp2{
+    position: relative;
+    top: 85px;
+    margin-left: 450px;
+    color: #cbe5ff;
+    width: 320px;
+    font-size: 15px;
+    cursor: default;
+}
+
+.endhrefs{
+    position: relative;
+    top: -120px;
+    margin-left: 860px;
+    width: 0px;
+}
+
+.endhref1{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-bottom: 12px;
+    
+}
+
+.endhref2{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.endhref3{
+    position: relative;
+    top: -62px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-bottom: 12px;
+    margin-left: 90px;
+}
+
+.endhref4{
+    position: relative;
+    top: -62px;
+    text-decoration: none;  
+    color: white;
+    display: block;
+    margin-bottom: 12px;
+    margin-left: 90px;
+}
+
+
+.secretdiv{
+    height: 0px;
+}
+
+
+
+
+
+@media only screen and (max-width: 1458px)
+ {
+   .navbar{
+    margin-left: 250px;
+    }
+    .logotext{
+    font-size: 20px;
+    }
+  .loginbtn{
+    padding: 13px;
+    font-size: 10px;
+  }
+
+  .href1{
+    position: relative;
+    right: 70px;
+    font-size: 12px;
+  }
+  .href2{
+    position: relative;
+    right: 70px;
+    font-size: 12px;
+  }
+  .href3{
+    position: relative;
+    right: 70px;
+    font-size: 12px;
+  }
+  .href5{
+    position: relative;
+    margin-right: 100px;
+    right: 70px;
+    font-size: 12px;
+ }
+ .welcomemain{
+    margin-left: 250px;
+ }
+
+ .welcometextmain{
+    font-size: 33px;
+ }
+
+ .welcometextsecond{
+    font-size: 16px;
+ }
+ .buttonmain1{
+    padding: 15px 20px;
+    font-size: 11px;
+ }
+ .buttonmain2{
+    font-size: 11px;
+ }
+}
+
+/* FIRST PART RESPONSIVE  */ /* FIRST PART RESPONSIVE  */ /* FIRST PART RESPONSIVE  */ /* FIRST PART RESPONSIVE  */ /* FIRST PART RESPONSIVE  */ 
+/* FIRST PART RESPONSIVE  */ /* FIRST PART RESPONSIVE  */ /* FIRST PART RESPONSIVE  */ /* FIRST PART RESPONSIVE  */ /* FIRST PART RESPONSIVE  */ 
+/* FIRST PART RESPONSIVE  */ /* FIRST PART RESPONSIVE  */ /* FIRST PART RESPONSIVE  */ /* FIRST PART RESPONSIVE  */ /* FIRST PART RESPONSIVE  */ 
+@media only screen and (max-width: 1182px)
+ {
+    .navbar{
+        margin-left: 100px;
+        }
+        .welcomemain{
+            margin-left: 100px;
+        }
+        .particles-js{
+            top: -256px;
+        }
+}
+
+
+@media only screen and (max-width: 1034px)
+ {
+    .href1{
+        position: relative;
+        right: 150px;
+      
+      }
+      .href2{
+        position: relative;
+        right: 150px;
+     
+      }
+      .href3{
+        position: relative;
+        right: 150px;
+     
+      }
+      .href5{
+        position: relative;
+        margin-right: 30px;
+        right: 150px;
+    
+     }
+    }
+
+
+    @media only screen and (max-width: 968px)
+ {
+    .loginbtn{
+        padding: 15px 20px;
+        font-size: 11px;
+      }
+      .buttonmain1:hover{
+        animation: changebg 0s;
+       }
+       .buttonmain2{
+        padding: 15px 15px;
+        animation: changebgop2 0s;
+       }
+       .buttonmain2:hover{
+        animation: changebg2 0s;
+       }
+    }
+
+    @media only screen and (max-width: 644px)
+    {
+       .navbar{
+        margin-left: 70px;
+         
+       }
+       .logotext{
+        left: 25px;
+       }
+}
+
+@media only screen and (max-width: 613px)
+    {
+       .navbar{
+        margin-left: 40px;
+        
+       }
+       .logotext{
+        left: 55px;
+       }
+}
+
+@media only screen and (max-width: 583px)
+    {
+       .navbar{
+        margin-left: 10px;
+        
+       }
+       .logotext{
+        left: 88px;
+       }
+}
+  
+@media only screen and (max-width: 574px)
+    {
+       .navbar{
+        margin-left: 70px;
+  
+        width: 450px;
+       }
+
+       .loginbtn2{
+        font-size: 10px;
+        padding: 13px;
+        margin-left: 330px;
+        
+       }
+}
+        
+@media only screen and (max-width: 500px)
+{
+   .welcomemain{
+    margin-left: 70px;
+   }
+}
+    
+        
+@media only screen and (max-width: 442px)
+{
+   .welcomemain{
+    margin-left: 30px;
+   }
+}
+
+@media only screen and (max-width: 404px)
+{
+   .welcometextmain{
+      font-size: 28px;
+   }
+  
+
+   .buttonmain1{
+    padding: 15px 15px;
+    animation: changebgop 0s;
+
+   }
+   .buttonmain1:hover{
+    animation: changebg 0s;
+   }
+   .buttonmain2{
+    padding: 15px 15px;
+    animation: changebgop2 0s;
+   }
+   .buttonmain2:hover{
+    animation: changebg2 0s;
+   }
+}
+    
+
+@media only screen and (max-width: 366px)
+{
+   .welcomemain{
+      margin-left: 15px;
+   }
+  
+ 
+}
+/* FIRST PART RESPONSIVE  */ /* FIRST PART RESPONSIVE  */ /* FIRST PART RESPONSIVE  */ /* FIRST PART RESPONSIVE  */ /* FIRST PART RESPONSIVE  */ 
+/* FIRST PART RESPONSIVE  */ /* FIRST PART RESPONSIVE  */ /* FIRST PART RESPONSIVE  */ /* FIRST PART RESPONSIVE  */ /* FIRST PART RESPONSIVE  */ 
+/* FIRST PART RESPONSIVE  */ /* FIRST PART RESPONSIVE  */ /* FIRST PART RESPONSIVE  */ /* FIRST PART RESPONSIVE  */ /* FIRST PART RESPONSIVE  */ 
+
+
+
+/* SECOND PART RESPONSIVE  */ /* SECOND  PART RESPONSIVE  */ /* SECOND PART RESPONSIVE  */ /* SECOND  PART RESPONSIVE  */ /* SECOND  PART RESPONSIVE  */ 
+/* SECOND PART RESPONSIVE  */ /* SECOND  PART RESPONSIVE  */ /* SECOND PART RESPONSIVE  */ /* SECOND  PART RESPONSIVE  */ /* SECOND  PART RESPONSIVE  */ 
+/* SECOND PART RESPONSIVE  */ /* SECOND  PART RESPONSIVE  */ /* SECOND PART RESPONSIVE  */ /* SECOND  PART RESPONSIVE  */ /* SECOND  PART RESPONSIVE  */ 
+@media only screen and (max-width:1772px)
+{
+   .secondmaintext{
+      position: relative;
+      right: 130px;
+   }
+   .secondtexts{
+    right: 130px;
+   }
+  
+}
+
+
+@media only screen and (max-width:1568px)
+{
+   .secondmaintext{
+      position: relative;
+      right: 240px;
+   }
+   .secondtexts{
+    right: 240px;
+   }
+  
+}
+
+
+
+@media only screen and (max-width:1414px)
+{
+   .secondmaintext{
+      position: relative;
+      right: 300px;
+   }
+   .secondtexts{
+    right: 300px;
+   }
+  
+}
+
+
+@media only screen and (max-width:1304px)
+{
+   .secondmaintext{
+      position: relative;
+      right: 340px;
+   }
+   .secondtexts{
+      right: 340px;
+      font: 1em sans-serif;
+   }
+   
+}
+
+
+@media only screen and (max-width:1268px)
+{
+   .secondmaintext{
+      position: relative;
+      right: 340px;
+   }
+   .secondtexts{
+      right: 340px;
+   }
+}
+
+
+@media only screen and (max-width:1176px)
+{
+   .secondmaintext{
+      position: relative;
+      right: 420px;
+   }
+   .secondtexts{
+      right: 420px;
+   }
+}
+
+
+@media only screen and (max-width:1074px)
+{
+   .secondmaintext{
+      position: relative;
+      right: 460px;
+   }
+   .secondtexts{
+      right: 460px;
+   }
+}
+
+@media only screen and (max-width:1028px)
+{
+   .secondmaintext{
+      margin-bottom: 30px;
+      position: relative;
+      right: 914px;
+      font-size: 1.2em;
+      width: 300px;
+      top: 340px;
+   }
+   .secondtexts{
+    top: 330px;
+    margin-left: 55px;
+     display: block;
+     right: 930px;
+   }
+
+   .discordicon{
+    position: relative;
+    right: 15px;
+   }
+   .coursesicon{
+    position: relative;
+    right: 15px;
+   }
+   .darkwebicon{
+    position: relative;
+    right: 15px;
+   }
+   .sourcesicon{
+    position: relative;
+    right: 15px;
+   }
+   .customicon{
+    position: relative;
+    right: 15px;
+   }
+   
+}
+
+@media only screen and (max-width:1512px)
+{
+   .secondparttext{
+    margin-left: 750px;
+   }
+   .secondpartsmalltxt{
+    margin-left: 750px;
+   }
+   .secondpartbutton{
+    margin-left: 225px;
+   }
+   .databaseimage{
+    margin-left: 90px;
+   }
+}
+
+
+@media only screen and (max-width:1322px)
+{
+   .secondparttext{
+    margin-left: 650px;
+   }
+   .secondpartsmalltxt{
+    margin-left: 650px;
+   }
+   .secondpartbutton{
+    margin-left: 173px;
+   }
+   .databaseimage{
+    margin-left: 100px;
+   }
+}
+
+
+@media only screen and (max-width:1224px)
+{
+   .secondparttext{
+    margin-left: 540px;
+   }
+   .secondpartsmalltxt{
+    margin-left: 540px;
+   }
+   .secondpartbutton{
+    top: 58px;
+    margin-left: 78px;
+   }
+   .databaseimage{
+    top: 150px;
+    margin-left: 120px;
+    width: 400px;
+    height: 400px;
+   }
+}
+
+
+@media only screen and (max-width:1110px)
+{
+   .secondparttext{
+    margin-left: 457px;
+   }
+   .secondpartsmalltxt{
+    margin-left: 457px;
+   }
+   .secondpartbutton{
+    top: 58px;
+    margin-left: 66px;
+   }
+   .databaseimage{
+    top: 150px;
+    margin-left: 50px;
+    width: 400px;
+    height: 400px;
+   }
+}
+
+
+
+@media only screen and (max-width:1028px)
+{
+   .secondparttext{
+    top: 120px;
+    margin-left: 360px;
+   }
+   .secondpartsmalltxt{
+    top: 120px;
+    margin-left: 360px;
+   }
+   .secondpartbutton{
+    top: -237px;
+    margin-left: -375px;
+   }
+   .databaseimage{
+    top: -420px;
+    margin-left: 395px;
+    width: 400px;
+    height: 400px;
+   }
+}
+
+
+
+
+@media only screen and (max-width:932px)
+{
+   .secondparttext{
+    top: 120px;
+    margin-left: 270px;
+   }
+   .secondpartsmalltxt{
+    top: 120px;
+    margin-left: 270px;
+   }
+   .secondpartbutton{
+    top: -237px;
+    margin-left: -388px;
+   }
+   .databaseimage{
+    top: -420px;
+    margin-left: 317px;
+    width: 400px;
+    height: 400px;
+   }
+}
+
+
+@media only screen and (max-width:842px)
+{
+   .secondparttext{
+    font-size: 27px;
+    top: 120px;
+    margin-left: 245px;
+   }
+   .secondpartsmalltxt{
+    top: 120px;
+    margin-left: 245px;
+   }
+   .secondpartbutton{
+    top: -237px;
+    margin-left: -333px;
+
+   }
+   .databaseimage{
+    top: -420px;
+    margin-left: 240px;
+    width: 400px;
+    height: 400px;
+   }
+}
+
+
+@media only screen and (max-width:746px)
+{
+   .secondparttext{
+    font-size: 23px;
+    top: 200px;
+    margin-left: 245px;
+   }
+   .secondpartsmalltxt{
+    font-size: 12px;
+    top: 200px;
+    margin-left: 245px;
+    width: 450px;
+   }
+   .secondpartbutton{
+    top: -160px;
+    margin-left: -316px;
+    font-size: 11px;
+    animation: changebgop 0s;
+   }
+
+   .secondpartbutton:hover{
+   animation: changebg 0s;
+   }
+   .databaseimage{
+    top: -310px;
+    margin-left: 210px;
+    width: 400px;
+    height: 400px;
+   }
+   .text1{
+    font-size: 14px;
+   }
+   .text2{
+    font-size: 14px;
+   }
+   .text3{
+    font-size: 14px;
+   }
+   .text4{
+    font-size: 14px;
+   }
+   .text5{
+    font-size: 14px;
+   }
+}
+
+
+@media only screen and (max-width:672px)
+{
+   .secondparttext{
+    font-size: 23px;
+    top: 200px;
+    margin-left: 220px;
+    width: 420px;
+   }
+   .secondpartsmalltxt{
+    font-size: 12px;
+    top: 200px;
+    margin-left: 220px;
+    width: 360px;
+   }
+   .secondpartbutton{
+    top: -160px;
+    margin-left: -365px;
+    font-size: 11px;
+   }
+   .databaseimage{
+    top: -335px;
+    margin-left: 180px;
+    width: 400px;
+    height: 400px;
+   }
+   .secondtexts{
+    top: 400px;
+   }
+   .secondmaintext{
+    top: 400px;
+   }
+}
+
+
+
+@media only screen and (max-width:572px)
+{
+   .secondparttext{
+    font-size: 21px;
+    top: 220px;
+    margin-left: 210px;
+    width: 370px;
+   }
+   .secondpartsmalltxt{
+    font-size: 12px;
+    top: 220px;
+    margin-left: 210px;
+    width: 330px;
+   }
+   .secondpartbutton{
+    top: -100px;
+    margin-left: -315px;
+    font-size: 11px;
+   }
+   .databaseimage{
+    top: -250px;
+    margin-left: 170px;
+    width: 350px;
+    height: 350px;
+   }
+   .secondtexts{
+    top: 400px;
+   }
+   .secondmaintext{
+    top: 400px;
+   }
+}
+
+
+
+@media only screen and (max-width:518px)
+{
+   .secondparttext{
+    font-size: 18px;
+    top: 220px;
+    margin-left: 195px;
+    width: 310px;
+   }
+   .secondpartsmalltxt{
+    font-size: 12px;
+    top: 220px;
+    margin-left: 195px;
+    width: 250px;
+   }
+   .secondpartbutton{
+    top: -10px;
+    margin-left: -260px;
+    font-size: 11px;
+   }
+   .databaseimage{
+    top: -200px;
+    margin-left: 180px;
+    width: 270px;
+    height: 270px;
+   }
+   .secondtexts{
+    top: 400px;
+   }
+   .secondmaintext{
+    top: 400px;
+   }
+}
+
+
+@media only screen and (max-width:460px)
+{
+   .secondparttext{
+    font-size: 18px;
+    top: 220px;
+    margin-left: 165px;
+    width: 310px;
+   }
+   .secondpartsmalltxt{
+    font-size: 12px;
+    top: 220px;
+    margin-left: 165px;
+    width: 250px;
+   }
+   .secondpartbutton{
+    top: -10px;
+    margin-left: -250px;
+    font-size: 11px;
+   }
+   .databaseimage{
+    top: -200px;
+    margin-left: 140px;
+    width: 270px;
+    height: 270px;
+   }
+   .secondtexts{
+    margin-left: 20px;
+    top: 400px;
+   }
+   .secondmaintext{
+    margin-left: -23px;
+    top: 400px;
+   }
+   .text1{
+    font-size: 12px;
+   }
+   .text2{
+    font-size: 12px;
+   }
+   .text3{
+    font-size: 12px;
+   }
+   .text4{
+    font-size: 12px;
+   }
+   .text5{
+    font-size: 12px;
+   }
+
+}
+
+
+@media only screen and (max-width:430px)
+{
+   .secondparttext{
+    font-size: 18px;
+    top: 220px;
+    margin-left: 155px;
+    width: 300px;
+   }
+   .secondpartsmalltxt{
+    font-size: 12px;
+    top: 220px;
+    margin-left: 155px;
+    width: 250px;
+   }
+   .secondpartbutton{
+    top: -10px;
+    margin-left: -250px;
+    font-size: 11px;
+   }
+   .databaseimage{
+    top: -200px;
+    margin-left: 130px;
+    width: 270px;
+    height: 270px;
+   }
+   .secondtexts{
+    margin-left: 20px;
+    top: 400px;
+   }
+   .secondmaintext{
+    margin-left: -23px;
+    top: 400px;
+   }
+   .secondmaintext{
+    right: 120px;
+    top: 400px;
+    font-size: 17px;
+   }
+   .secondmaintext{
+    margin-left: -23px;
+    top: 400px;
+    right: 920px;
+   }
+
+}
+
+
+@media only screen and (max-width:420px)
+{
+   .secondparttext{
+    font-size: 16px;
+    top: 220px;
+    margin-left: 155px;
+    width: 260px;
+   }
+   .secondpartsmalltxt{
+    font-size: 12px;
+    top: 220px;
+    margin-left: 155px;
+    width: 180px;
+   }
+   .secondpartbutton{
+    top: -10px;
+    margin-left: -233px;
+    font-size: 11px;
+   }
+   .databaseimage{
+    top: -200px;
+    margin-left: 115px;
+    width: 270px;
+    height: 270px;
+   }
+   .secondtexts{
+    margin-left: 20px;
+    top: 400px;
+   }
+   
+
+}
+
+
+@media only screen and (max-width:388px)
+{
+   .secondparttext{
+    font-size: 14px;
+    top: 220px;
+    margin-left: 155px;
+    width: 220px;
+   }
+   .secondpartsmalltxt{
+    font-size: 10px;
+    top: 220px;
+    margin-left: 155px;
+    width: 180px;
+   }
+   .secondpartbutton{
+    top: -10px;
+    margin-left: -233px;
+    font-size: 10px;
+    padding: 13px 13px;
+    animation: animation changebgop 0s ;
+
+   }
+   .secondpartbutton:hover{
+    animation: changebg 0s;
+   }
+
+   .databaseimage{
+    top: -200px;
+    margin-left: 115px;
+    width: 270px;
+    height: 270px;
+   }
+   .secondtexts{
+    margin-left: 20px;
+    top: 400px;
+   }
+   
+}
+
+@media only screen and (max-width:357px)
+{
+   .secondparttext{
+    font-size: 14px;
+    top: 220px;
+    margin-left: 145px;
+    width: 220px;
+   }
+   .secondpartsmalltxt{
+    font-size: 10px;
+    top: 220px;
+    margin-left: 145px;
+    width: 180px;
+   }
+   .secondpartbutton{
+    top: 4px;
+    margin-left: -220px;
+    font-size: 10px;
+    padding: 13px 13px;
+   }
+   .databaseimage{
+    top: -170px;
+    margin-left: 110px;
+    width: 250px;
+    height: 250px;
+   }
+   .secondtexts{
+    margin-left: 20px;
+    top: 400px;
+   }
+   
+
+}
+/* SECOND PART RESPONSIVE  */ /* SECOND  PART RESPONSIVE  */ /* SECOND PART RESPONSIVE  */ /* SECOND  PART RESPONSIVE  */ /* SECOND  PART RESPONSIVE  */ 
+/* SECOND PART RESPONSIVE  */ /* SECOND  PART RESPONSIVE  */ /* SECOND PART RESPONSIVE  */ /* SECOND  PART RESPONSIVE  */ /* SECOND  PART RESPONSIVE  */ 
+/* SECOND PART RESPONSIVE  */ /* SECOND  PART RESPONSIVE  */ /* SECOND PART RESPONSIVE  */ /* SECOND  PART RESPONSIVE  */ /* SECOND  PART RESPONSIVE  */ 
+
+/* THIRD PART RESPONSIVE  */ /* THIRD  PART RESPONSIVE  */ /* THIRD  PART RESPONSIVE  */ /* THIRD  PART RESPONSIVE  */ /* THIRD   PART RESPONSIVE  */ 
+/* THIRD PART RESPONSIVE  */ /* THIRD  PART RESPONSIVE  */ /* THIRD  PART RESPONSIVE  */ /* THIRD  PART RESPONSIVE  */ /* THIRD   PART RESPONSIVE  */ 
+/* THIRD PART RESPONSIVE  */ /* THIRD  PART RESPONSIVE  */ /* THIRD  PART RESPONSIVE  */ /* THIRD  PART RESPONSIVE  */ /* THIRD   PART RESPONSIVE  */ 
+@media only screen and (max-width:1411px)
+{
+   .boxes{
+    display: inline-block;
+   }
+
+   .thirdpart{
+    height: 1770px;
+   }
+   .thirdpartmaintxt{
+    right: 20px;
+   }
+}
+
+
+@media only screen and (max-width:795px)
+{
+   .boxes{
+    position: relative;
+    display: inline-block;
+    left: 20px;
+   }
+
+   .thirdpart{
+    height: 1770px;
+   }
+   .thirdpartmaintxt{
+    right: -3px;
+   }
+}
+
+@media only screen and (max-width:437px)
+{
+   .boxes{
+    position: relative;
+    display: inline-block;
+    left: -175px;
+    width: 1px;
+   }
+
+   .thirdpart{
+    height: 1770px;
+   }
+   .thirdpartmaintxt{
+    right: 5px;
+   }
+   .box1{
+    width: 350px;
+    height: 350px;
+   }
+   .box1 p{
+    font-size: 15px;
+    width: 300px;
+   }
+   .box2{
+    width: 350px;
+    height: 350px;
+   }
+   .box2 h3{
+    position: relative;
+    top: -13px;
+   }
+   .box2 p{
+    position: relative;
+    top: -15px;
+    font-size: 15px;
+    width: 340px;
+   }
+   .box3{
+    width: 350px;
+    height: 350px;
+   }
+   .box3 p{
+    font-size: 15px;
+    width: 300px;
+   }
+}
+
+
+@media only screen and (max-width:361px)
+{
+   .boxes{
+    position: relative;
+    display: inline-block;
+    left: -148px;
+    width: 1px;
+   }
+
+   .thirdpart{
+    height: 1770px;
+   }
+   .thirdpartmaintxt{
+    right: 5px;
+   }
+   .box1{
+    width: 300px;
+    height: 340px;
+   }
+   .box1 h3{
+    position: relative;
+    top: -10px;
+   }
+   .box1 p{
+    position: relative;
+    top: -15px;
+    font-size: 15px;
+    width: 260px;
+   }
+   .box2{
+    width: 300px;
+    height: 340px;
+   }
+   .box2 h3{
+    position: relative;
+    top: -18px;
+   }
+   .box2 p{
+    position: relative;
+    top: -30px;
+    font-size: 15px;
+    width: 300px;
+   }
+   .box3{
+    width: 300px;
+    height: 340px;
+   }
+   .box3 h3{
+    position: relative;
+    top: -10px;
+   }
+   .box3 p{
+    position: relative;
+    top: -15px;
+    font-size: 15px;
+    width: 260px;
+   }
+}
+/* THIRD PART RESPONSIVE  */ /* THIRD  PART RESPONSIVE  */ /* THIRD  PART RESPONSIVE  */ /* THIRD  PART RESPONSIVE  */ /* THIRD   PART RESPONSIVE  */ 
+/* THIRD PART RESPONSIVE  */ /* THIRD  PART RESPONSIVE  */ /* THIRD  PART RESPONSIVE  */ /* THIRD  PART RESPONSIVE  */ /* THIRD   PART RESPONSIVE  */ 
+/* THIRD PART RESPONSIVE  */ /* THIRD  PART RESPONSIVE  */ /* THIRD  PART RESPONSIVE  */ /* THIRD  PART RESPONSIVE  */ /* THIRD   PART RESPONSIVE  */ 
+
+
+
+/* LAST PART RESPONSIVE  */ /* LAST  PART RESPONSIVE  */ /* LAST  PART RESPONSIVE  */ /* LAST PART RESPONSIVE  */ /* LAST  PART RESPONSIVE  */ 
+/* LAST PART RESPONSIVE  */ /* LAST  PART RESPONSIVE  */ /* LAST  PART RESPONSIVE  */ /* LAST PART RESPONSIVE  */ /* LAST  PART RESPONSIVE  */ 
+/* LAST PART RESPONSIVE  */ /* LAST  PART RESPONSIVE  */ /* LAST  PART RESPONSIVE  */ /* LAST PART RESPONSIVE  */ /* LAST  PART RESPONSIVE  */ 
+
+@media only screen and (max-width:1697px)
+{
+   .bluecircle{
+   width: 0px;
+   }
+}
+
+
+@media only screen and (max-width:863px)
+{
+   .bluecircle{
+   width: 0px;
+   }
+   .instagram{
+    margin-left: 100px;
+    position: relative;
+    top: -130px;
+    animation: closewidthinstagram 0s;
+   }
+   .instagram:hover{
+    animation: smoothwidthinstagram 0s;
+   }
+   .twitter{
+    position: relative;
+    top: -130px;
+    margin-right: 100px;
+    animation: closewidthtiktok 0s;
+   }
+   .twitter:hover{
+    animation: smoothwidthtiktok 0s;
+   }
+   .youtube{
+    position: relative;
+    top: -130px;
+    animation: closewidthtiktok 0s;
+   }
+   .youtube:hover{
+    animation: smoothwidthtiktok 0s;
+   }
+   .github{
+    top: -464px;
+    right: -110px;
+    animation: closewidthgithub 0s;
+   }
+   .github:hover{
+    animation: smoothwidthgithub 0s;
+   }
+   .tiktok{
+   right: 50px;
+   top: -200px;
+   display: block;
+   animation: closewidthtiktok 0s;
+   }
+   .tiktok:hover{
+    animation: smoothwidthtiktok 0s;
+   }
+   .fourthpart h2{
+    top: -10px;
+    margin-left: 25px;
+   }
+}
+
+
+@media only screen and (max-width:678px)
+{
+   .bluecircle{
+   width: 0px;
+   }
+   .instagram{
+    margin-left: 100px;
+    position: relative;
+    top: -130px;
+   }
+   .twitter{
+    position: relative;
+    top: -130px;
+    margin-right: 100px;
+   }
+   .youtube{
+    position: relative;
+    right: 50px;
+    top: -250px;
+    width: 100px;
+    
+   }
+   .github{
+    top: -790px;
+    right: -105px;
+    width: 135px;
+    
+   }
+   .tiktok{
+   right: -55px;
+   top: -370px;
+   width: 100px;
+   display: block;
+   }
+   .fourthpart h2{
+    top: -10px;
+    margin-left: 0px;
+   }
+}
+
+
+
+
+@media only screen and (max-width:494px)
+{
+   .bluecircle{
+   width: 0px;
+   }
+   .instagram{
+    margin-left: 107px;
+    position: relative;
+    top: -130px;
+   }
+   .twitter{
+    position: relative;
+    top: 30px;
+    left: 148px;
+    margin-right: 100px;
+   }
+   .youtube{
+    position: relative;
+    right: 50px;
+    top: -250px;
+    width: 100px;
+    
+   }
+   .github{
+    top: -370px;
+    right: -1px;
+    width: 135px;
+   
+   }
+   .tiktok{
+   right: -56px;
+   top: -370px;
+   width: 100px;
+   display: block;
+   }
+   .fourthpart h2{
+    font-size: 40px;
+    top: -10px;
+    margin-left: 11px;
+   }
+   .fourthpart{
+    height: 900px;
+   }
+}
+
+
+
+
+
+@media only screen and (max-width:384px)
+{
+   .bluecircle{
+   width: 0px;
+   }
+   .instagram{
+    margin-left: 107px;
+    position: relative;
+    top: -130px;
+   }
+   .twitter{
+    position: relative;
+    top: -104px;
+    left: 55px;
+    margin-right: 100px;
+   }
+   .youtube{
+    position: relative;
+    right: -50px;
+    top: -505px;
+    width: 100px;
+    
+   }
+   .github{
+    top: -620px;
+    right: -3px;
+    width: 135px;
+   
+   }
+   .tiktok{
+   right: -60px;
+   top: -487px;
+   width: 100px;
+   display: block;
+   }
+   .fourthpart h2{
+    font-size: 40px;
+    top: -10px;
+    margin-left: 11px;
+   }
+   .fourthpart{
+    height: 900px;
+   }
+}
+
+/* LAST PART RESPONSIVE  */ /* LAST  PART RESPONSIVE  */ /* LAST  PART RESPONSIVE  */ /* LAST PART RESPONSIVE  */ /* LAST  PART RESPONSIVE  */ 
+/* LAST PART RESPONSIVE  */ /* LAST  PART RESPONSIVE  */ /* LAST  PART RESPONSIVE  */ /* LAST PART RESPONSIVE  */ /* LAST  PART RESPONSIVE  */ 
+/* LAST PART RESPONSIVE  */ /* LAST  PART RESPONSIVE  */ /* LAST  PART RESPONSIVE  */ /* LAST PART RESPONSIVE  */ /* LAST  PART RESPONSIVE  */ 
+
+
+
+@media only screen and (max-width:1548px)
+{
+   .end h2{
+   margin-left: 331px;
+   }
+   .eandp2{
+    margin-left: 331px;
+   }
+   .enxadp1{
+    margin-left: 331px;
+   }
+   .endhrefs{
+    position: relative;
+    top: -165px;
+    margin-left: 730px;
+   }
+   .end input{
+    position: relative;
+    right: 120px; 
+   }
+   .end button{
+    position: relative;
+    top: -119px;
+    margin-left: 1320px;
+   }
+ 
+}
+
+
+@media only screen and (max-width:1548px)
+{
+   .end h2{
+   margin-left: 331px;
+   }
+   .eandp2{
+    margin-left: 331px;
+   }
+   .enxadp1{
+    margin-left: 331px;
+   }
+   .endhrefs{
+    position: relative;
+    top: -165px;
+    margin-left: 730px;
+   }
+
+   .end button{
+    position: relative;
+    top: -119px;
+    margin-left: 1320px;
+   }
+ 
+}
+
+
+@media only screen and (max-width:1388px)
+{
+   .end h2{
+   margin-left: 200px;
+   }
+   .eandp2{
+    margin-left: 200px;
+   }
+   .enxadp1{
+    margin-left: 200px;
+   }
+   .endhrefs{
+    position: relative;
+    top: -165px;
+    margin-left: 600px;
+   }
+   .end input{
+   margin-left: 1000px;
+    
+   }
+   .end button{
+    position: relative;
+    top: -119px;
+    margin-left: 1133px;
+   }
+ 
+}
+
+
+
+@media only screen and (max-width:1204px)
+{
+   .end h2{
+   margin-left: 100px;
+   }
+   .eandp2{
+    margin-left: 100px;
+   }
+   .enxadp1{
+    margin-left: 100px;
+   }
+   .endhrefs{
+    position: relative;
+    top: -165px;
+    margin-left: 490px;
+   }
+   .end input{
+   margin-left: 870px;
+    
+   }
+   .end button{
+    position: relative;
+    top: -119px;
+    margin-left: 1000px;
+   }
+ 
+}
+
+
+
+@media only screen and (max-width:1070px)
+{
+   .end h2{
+   margin-left: 100px;
+   }
+   .eandp2{
+    margin-left: 100px;
+   }
+   .enxadp1{
+    margin-left: 100px;
+   }
+   .endhrefs{
+    position: relative;
+    top: -165px;
+    margin-left: 500px;
+   }
+   .end input{
+    position: relative;
+    top: 35px;
+    margin-left: 615px;
+    
+   }
+   .end button{
+    position: relative;
+    top: -4px;
+    margin-left: 746px;
+   }
+ 
+}
+
+
+
+@media only screen and (max-width:822px)
+{
+   .end h2{
+   margin-left: 30px;
+   }
+   .eandp2{
+    margin-left: 30px;
+   }
+   .enxadp1{
+    margin-left: 30px;
+   }
+   .endhrefs{
+    position: relative;
+    top: -165px;
+    margin-left: 420px;
+   }
+   .end input{
+    position: relative;
+    top: 35px;
+    margin-left: 535px;
+    
+   }
+   .end button{
+    position: relative;
+    top: -4px;
+    margin-left: 667px;
+   }
+ 
+}
+
+
+@media only screen and (max-width:742px)
+{
+   .end h2{
+   margin-left: 30px;
+   }
+   .eandp2{
+    margin-left: 30px;
+   }
+   .enxadp1{
+    margin-left: 30px;
+   }
+   .endhrefs{
+    position: relative;
+    top: -110px;
+    margin-left: 470px;
+   }
+   .end input{
+    position: relative;
+    top: 95px;
+    margin-left: 148px;
+    
+   }
+   .end button{
+    position: relative;
+    top: 95px;
+    margin-left: -120px;
+   }
+ 
+}
+
+
+
+@media only screen and (max-width:624px)
+{
+   .end h2{
+   margin-left: 30px;
+   }
+   .eandp2{
+    margin-left: 30px;
+   }
+   .enxadp1{
+    margin-left: 30px;
+   }
+   .endhrefs{
+    position: relative;
+    top: -110px;
+    margin-left: 390px;
+   }
+   .end input{
+    position: relative;
+    top: 95px;
+    margin-left: 148px;
+    
+   }
+   .end button{
+    border-radius: 10px;
+    position: relative;
+    top: 93px;
+    margin-left: -110px;
+   }
+ 
+}
+
+
+@media only screen and (max-width:560px)
+{
+   .end h2{
+   margin-left: 30px;
+   }
+   .eandp2{
+    margin-left: 30px;
+   }
+   .enxadp1{
+    margin-left: 30px;
+   }
+   .endhrefs{
+    position: relative;
+    top: -240px;
+    margin-left: 28px;
+    display: flex;
+   }
+   .endhref1{
+   margin-right: 100px;
+   }
+
+   .endhref3{
+    
+    top: 1px;
+   }
+   .endhref4{
+    top: 1px;
+   }
+   .end input{
+    position: relative;
+    top: 95px;
+    margin-left: 148px;
+    
+   }
+   .end button{
+    border-radius: 10px;
+    position: relative;
+    top: 93px;
+    margin-left: -110px;
+   }
+ 
+}
+
+
+
+@media only screen and (max-width:528px)
+{
+   .end h2{
+   margin-left: 30px;
+   }
+   .eandp2{
+    margin-left: 30px;
+   }
+   .enxadp1{
+    margin-left: 30px;
+   }
+   .endhrefs{
+    position: relative;
+    top: -240px;
+    margin-left: 50px;
+    display: flex;
+   }
+   .endhref1{
+   margin-right: 70px;
+   }
+   .endhref2{
+    margin-right: -10px;
+   }
+   .endhref3{
+    margin-right: -10px;
+    top: 1px;
+   }
+   .endhref4{
+    top: 1px;
+   }
+   .end input{
+    position: relative;
+    top: 95px;
+    margin-left: 148px;
+    
+   }
+   .end button{
+    border-radius: 10px;
+    position: relative;
+    top: 93px;
+    margin-left: -110px;
+   }
+ 
+}
+
+
+@media only screen and (max-width:500px)
+{
+   .end h2{
+   margin-left: 30px;
+   }
+   .eandp2{
+    margin-left: 30px;
+   }
+   .enxadp1{
+    margin-left: 30px;
+   }
+   .endhrefs{
+    position: relative;
+    top: -240px;
+    margin-left: 30px;
+    display: flex;
+   }
+   .endhref1{
+   margin-right: 70px;
+   }
+   .endhref2{
+    margin-right: -10px;
+   }
+   .endhref3{
+    margin-right: -10px;
+    top: 1px;
+   }
+   .endhref4{
+    top: 1px;
+   }
+   .end input{
+    position: relative;
+    top: 95px;
+    margin-left: 148px;
+    
+   }
+   .end button{
+    border-radius: 10px;
+    position: relative;
+    top: 93px;
+    margin-left: -110px;
+   }
+ 
+}
+
+
+@media only screen and (max-width:480px)
+{
+   .end h2{
+   margin-left: 30px;
+   }
+   .eandp2{
+    margin-left: 30px;
+   }
+   .enxadp1{
+    margin-left: 30px;
+   }
+   .endhrefs{
+    position: relative;
+    top: -240px;
+    margin-left: 17px;
+    display: flex;
+   }
+   .endhref1{
+   margin-right: 70px;
+   }
+   .endhref2{
+    margin-right: -10px;
+   }
+   .endhref3{
+    margin-right: -10px;
+    top: 1px;
+   }
+   .endhref4{
+    top: 1px;
+   }
+   .end input{
+    position: relative;
+    top: 95px;
+    margin-left: 148px;
+    
+   }
+   .end button{
+    border-radius: 10px;
+    position: relative;
+    top: 93px;
+    margin-left: -110px;
+   }
+ 
+}
+
+
+@media only screen and (max-width:480px)
+{
+   .end h2{
+   margin-left: 30px;
+   }
+   .eandp2{
+    margin-left: 30px;
+   }
+   .enxadp1{
+    margin-left: 30px;
+   }
+   .endhrefs{
+    position: relative;
+    top: -240px;
+    margin-left: 50px;
+    display: flex;
+   }
+   .endhref1{
+   margin-right: 50px;
+   }
+   .endhref2{
+    margin-right: -40px;
+   }
+   .endhref3{
+    margin-right: -40px;
+    top: 1px;
+   }
+   .endhref4{
+    top: 1px;
+   }
+   .end input{
+    position: relative;
+    top: 95px;
+    margin-left: 148px;
+    
+   }
+   .end button{
+    border-radius: 10px;
+    position: relative;
+    top: 93px;
+    margin-left: -110px;
+   }
+ 
+}
+
+@media only screen and (max-width:428px)
+{
+   .end h2{
+   margin-left: 30px;
+   }
+   .eandp2{
+    margin-left: 30px;
+   }
+   .enxadp1{
+    margin-left: 30px;
+   }
+   .endhrefs{
+    position: relative;
+    top: -240px;
+    margin-left: 30px;
+    display: flex;
+   }
+   .endhref1{
+   margin-right: 50px;
+   }
+   .endhref2{
+    margin-right: -40px;
+   }
+   .endhref3{
+    margin-right: -40px;
+    top: 1px;
+   }
+   .endhref4{
+    top: 1px;
+   }
+   .end input{
+    position: relative;
+    top: 95px;
+    margin-left: 148px;
+    
+   }
+   .end button{
+    border-radius: 10px;
+    position: relative;
+    top: 93px;
+    margin-left: -110px;
+   }
+ 
+}
+
+
+@media only screen and (max-width:420px)
+{
+   .end h2{
+   margin-left: 30px;
+   }
+   .eandp2{
+    margin-left: 30px;
+   }
+   .enxadp1{
+    margin-left: 30px;
+   }
+   .endhrefs{
+    position: relative;
+    top: -240px;
+    margin-left: 25px;
+    display: flex;
+   }
+   .endhref1{
+   margin-right: 50px;
+   }
+   .endhref2{
+    margin-right: -40px;
+   }
+   .endhref3{
+    margin-right: -40px;
+    top: 1px;
+   }
+   .endhref4{
+    top: 1px;
+   }
+   .end input{
+    position: relative;
+    top: 95px;
+    margin-left: 148px;
+    
+   }
+   .end button{
+    border-radius: 10px;
+    position: relative;
+    top: 93px;
+    margin-left: -110px;
+   }
+ 
+}
+
+
+
+@media only screen and (max-width:394px)
+{
+   .end h2{
+   margin-left: 30px;
+   }
+   .eandp2{
+    margin-left: 30px;
+   }
+   .enxadp1{
+    margin-left: 30px;
+   }
+   .endhrefs{
+    position: relative;
+    top: -280px;
+    margin-left: 13px;
+    display: flex;
+   }
+   .endhref1{
+   margin-right: 50px;
+   }
+   .endhref2{
+    margin-right: -40px;
+   }
+   .endhref3{
+    margin-right: -40px;
+    top: 1px;
+   }
+   .endhref4{
+    top: 1px;
+   }
+   .end input{
+    position: relative;
+    top: 95px;
+    margin-left: 148px;
+    
+   }
+   .end button{
+    border-radius: 10px;
+    position: relative;
+    top: 55px;
+    margin-left: 290px;
+   }
+ 
+}
+
+
+@media only screen and (max-width:384px)
+{
+   .end h2{
+   margin-left: 30px;
+   }
+   .eandp2{
+    margin-left: 30px;
+   }
+   .enxadp1{
+    margin-left: 30px;
+   }
+   .endhrefs{
+    position: relative;
+    top: -280px;
+    margin-left: 40px;
+    display: flex;
+   }
+   .endhref1{
+   margin-right: 30px;
+   }
+   .endhref2{
+    margin-right: -60px;
+   }
+   .endhref3{
+    margin-right: -60px;
+    top: 1px;
+   }
+   .endhref4{
+    top: 1px;
+   }
+   .end input{
+    position: relative;
+    top: 95px;
+    margin-left: 148px;
+    
+   }
+   .end button{
+    border-radius: 10px;
+    position: relative;
+    top: 55px;
+    margin-left: 290px;
+   }
+ 
+}
+
+
+
+@media only screen and (max-width:366px)
+{
+   .end h2{
+   margin-left: 10px;
+   }
+   .eandp2{
+    margin-left: 10px;
+   }
+   .enxadp1{
+    margin-left: 10px;
+   }
+   .endhrefs{
+    position: relative;
+    top: -280px;
+    margin-left: 25px;
+    display: flex;
+   }
+   .endhref1{
+   margin-right: 30px;
+   }
+   .endhref2{
+    margin-right: -60px;
+   }
+   .endhref3{
+    margin-right: -60px;
+    top: 1px;
+   }
+   .endhref4{
+    top: 1px;
+   }
+   .end input{
+    position: relative;
+    top: 95px;
+    margin-left: 128px;
+    
+   }
+   .end button{
+    border-radius: 10px;
+    position: relative;
+    top: 55px;
+    margin-left: 270px;
+   }
+ 
+}
+
+
+.drop{
+    position: fixed;
+    margin-left: 540px;
+    background-color: #000d47;
+    border-radius: 7px;
+    top: 90px;
+    width: 160px;
+    height: 160px;
+    animation: smoothheight 0.6s forwards;
+    z-index:100;
+}
+
+.droptext1{
+    margin-left: 20px;
+    color: white;
+    font-weight: 450;
+}
+
+.droptext2{
+    margin-left: 20px;
+    color: white;
+    font-weight: 450;
+}
+
+.droptext3{
+    margin-left: 20px;
+    color: white;
+    font-weight: 450;
+}
+
+.droptext4{
+    margin-left: 20px;
+    color: white;
+    font-weight: 450;
+}
+
+.droptextkill{
+    font-size: 0;
+}
+
+
+@keyframes smoothheight{
+    0%{
+        height: 0px;
+    }
+    100%{
+        height: 160px;
+    }
+}
+
+
+@media only screen and (max-width:848px)
+{
+   .drop{
+   margin-left: 473px;
+   }
+}
+
+@media only screen and (max-width:778px)
+{
+   .drop{
+   margin-left: 390px;
+   }
+}
+
+@media only screen and (max-width:687px)
+{
+   .drop{
+   margin-left: 345px;
+   }
+}
+
+@media only screen and (max-width:644px)
+{
+   .drop{
+   margin-left: 314px;
+   }
+}
+
+@media only screen and (max-width:613px)
+{
+   .drop{
+   margin-left: 286px;
+   }
+}
+
+
+@media only screen and (max-width:583px)
+{
+   .drop{
+   margin-left: 255px;
+   }
+}
+
+@media only screen and (max-width:574px)
+{
+   .drop{
+   margin-left: 260px;
+   }
+}
+
+
+@media only screen and (max-width:526px)
+{
+   .drop{
+   margin-left: 240px;
+   }
+}
+
+
+@media only screen and (max-width:470px)
+{
+   .drop{
+   margin-left: 230px;
+   }
+}
+
+
+@media only screen and (max-width:456px)
+{
+   .drop{
+   margin-left: 210px;
+   }
+}
+
+@media only screen and (max-width:438px)
+{
+   .drop{
+   margin-left: 220px;
+   }
+}
+
+@media only screen and (max-width:414px)
+{
+   .drop{
+   margin-left: 212px;
+   }
+}
+
+
+@media only screen and (max-width:412px)
+{
+   .drop{
+   margin-left: 200px;
+   }
+}
+
+
+@media only screen and (max-width:410px)
+{
+   .drop{
+   margin-left: 210px;
+   }
+}
+
+@media only screen and (max-width:402px)
+{
+   .drop{
+   margin-left: 185px;
+   }
+}
+
+@media only screen and (max-width:378px)
+{
+   .drop{
+   margin-left: 180px;
+   }
+}
+
+@media only screen and (max-width:375px)
+{
+   .drop{
+   margin-left: 175px;
+   }
+}
+
+
+
+@media only screen and (max-width:354px)
+{
+   .drop{
+   margin-left: 165px;
+   }
+}
+
+
+
+
+
+
